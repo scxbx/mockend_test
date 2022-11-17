@@ -1,7 +1,7 @@
 {
   "photos": {
-	"albumId": { "min": 0, "max": 1000000 } ,
-	"id": { "min": 0, "max": 1000000 } ,
+	"albumId": { "int": { "min": 0, "max": 1000000 } },
+	"id": { "int": { "min": 0, "max": 1000000 } },
 	"title": { "string": {} },
 	"url": {
 		"regexp": "https://picsum\\.photos/seed/[0-9]{5}/600/600"
